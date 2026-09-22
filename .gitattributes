@@ -1,0 +1,5 @@
+# 二进制与3D模型严格保持二进制，禁止换行符自动转换
+*.step binary
+*.stp binary
+*.kicad_pcb text eol=lf
+*.kicad_sch text eol=lf
