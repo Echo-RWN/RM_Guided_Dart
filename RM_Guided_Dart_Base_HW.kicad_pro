@@ -508,7 +508,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -584,7 +584,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "RM_Guided_Dart_Base_HW_NEXT-GERBER/",
+      "plot": "RM_Guided_Dart_Base_HW-GERBER/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -726,7 +726,7 @@
         "uuid": "6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
       }
     ],
-    "used_designators": "",
+    "used_designators": "Q2-3",
     "variants": []
   },
   "sheets": [

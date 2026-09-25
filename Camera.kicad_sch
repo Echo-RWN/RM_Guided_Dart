@@ -5,7 +5,318 @@
 	(uuid "be71433a-10eb-4208-9dd6-0ad59adc0117")
 	(paper "A5")
 	(lib_symbols
-		(symbol "Connector_Generic_MountingPin:Conn_01x24_MountingPin"
+		(symbol "RM_Guided_Dart_Base_HW:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RM_Guided_Dart_Base_HW:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RM_Guided_Dart_Base_HW:Conn_01x24_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -840,318 +1151,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:C_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "capacitor cap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R"
+		(symbol "RM_Guided_Dart_Base_HW:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1291,7 +1291,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Small"
+		(symbol "RM_Guided_Dart_Base_HW:R_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3529,7 +3529,7 @@
 		(uuid "fe1a7ac6-0c51-40e4-b218-340fa09ceb8c")
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RM_Guided_Dart_Base_HW:C_Small")
 		(at 34.29 63.5 0)
 		(mirror y)
 		(unit 1)
@@ -3562,7 +3562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:C_0603_1608Metric"
 			(at 34.29 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3922,7 +3922,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RM_Guided_Dart_Base_HW:C_Small")
 		(at 69.85 38.1 0)
 		(mirror x)
 		(unit 1)
@@ -3953,7 +3953,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:C_0402_1005Metric"
 			(at 69.85 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4002,7 +4002,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "RM_Guided_Dart_Base_HW:C")
 		(at 163.83 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -4035,7 +4035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:C_0402_1005Metric"
 			(at 164.7952 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4084,7 +4084,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RM_Guided_Dart_Base_HW:C_Small")
 		(at 60.96 68.58 0)
 		(mirror x)
 		(unit 1)
@@ -4115,7 +4115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:C_0603_1608Metric"
 			(at 60.96 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4321,7 +4321,7 @@
 	)
 	(symbol
 		(lib_name "RT9193_1")
-		(lib_id "RWN_Symbols:RT9193")
+		(lib_id "RM_Guided_Dart_Base_HW:RT9193_1")
 		(at 44.45 35.56 0)
 		(unit 1)
 		(body_style 1)
@@ -4352,7 +4352,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:SOT-23-5"
 			(at 44.45 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4487,7 +4487,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "RM_Guided_Dart_Base_HW:R")
 		(at 161.29 78.74 0)
 		(unit 1)
 		(body_style 1)
@@ -4520,7 +4520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:R_0402_1005Metric"
 			(at 159.512 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -4646,7 +4646,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "RM_Guided_Dart_Base_HW:R_Small")
 		(at 26.67 66.04 180)
 		(unit 1)
 		(body_style 1)
@@ -4676,7 +4676,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:R_0402_1005Metric"
 			(at 26.67 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4802,7 +4802,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "RM_Guided_Dart_Base_HW:R_Small")
 		(at 26.67 96.52 180)
 		(unit 1)
 		(body_style 1)
@@ -4832,7 +4832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:R_0402_1005Metric"
 			(at 26.67 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4881,7 +4881,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "RM_Guided_Dart_Base_HW:R")
 		(at 149.86 78.74 0)
 		(unit 1)
 		(body_style 1)
@@ -4914,7 +4914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:R_0402_1005Metric"
 			(at 148.082 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -5040,7 +5040,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RM_Guided_Dart_Base_HW:C_Small")
 		(at 53.34 41.91 0)
 		(mirror x)
 		(unit 1)
@@ -5071,7 +5071,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:C_0402_1005Metric"
 			(at 53.34 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -5197,7 +5197,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RM_Guided_Dart_Base_HW:C_Small")
 		(at 34.29 33.02 0)
 		(mirror y)
 		(unit 1)
@@ -5230,7 +5230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:C_0603_1608Metric"
 			(at 34.29 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5358,7 +5358,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RM_Guided_Dart_Base_HW:C_Small")
 		(at 53.34 72.39 0)
 		(mirror x)
 		(unit 1)
@@ -5389,7 +5389,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:C_0402_1005Metric"
 			(at 53.34 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5596,7 +5596,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RM_Guided_Dart_Base_HW:C_Small")
 		(at 53.34 102.87 0)
 		(mirror x)
 		(unit 1)
@@ -5627,7 +5627,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:C_0402_1005Metric"
 			(at 53.34 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5676,7 +5676,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "RM_Guided_Dart_Base_HW:R_Small")
 		(at 26.67 35.56 180)
 		(unit 1)
 		(body_style 1)
@@ -5706,7 +5706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:R_0402_1005Metric"
 			(at 26.67 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -5755,7 +5755,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "RM_Guided_Dart_Base_HW:R")
 		(at 172.72 78.74 0)
 		(unit 1)
 		(body_style 1)
@@ -5788,7 +5788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:R_0402_1005Metric"
 			(at 170.942 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -5916,7 +5916,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "RM_Guided_Dart_Base_HW:R")
 		(at 184.15 78.74 0)
 		(unit 1)
 		(body_style 1)
@@ -5949,7 +5949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:R_0402_1005Metric"
 			(at 182.372 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -6077,7 +6077,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RM_Guided_Dart_Base_HW:C_Small")
 		(at 69.85 68.58 0)
 		(mirror x)
 		(unit 1)
@@ -6108,7 +6108,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:C_0402_1005Metric"
 			(at 69.85 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6311,7 +6311,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RM_Guided_Dart_Base_HW:C_Small")
 		(at 34.29 93.98 0)
 		(mirror y)
 		(unit 1)
@@ -6344,7 +6344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:C_0603_1608Metric"
 			(at 34.29 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6551,7 +6551,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RM_Guided_Dart_Base_HW:C_Small")
 		(at 60.96 99.06 0)
 		(mirror x)
 		(unit 1)
@@ -6582,7 +6582,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:C_0603_1608Metric"
 			(at 60.96 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6785,7 +6785,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RM_Guided_Dart_Base_HW:C_Small")
 		(at 69.85 99.06 0)
 		(mirror x)
 		(unit 1)
@@ -6816,7 +6816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:C_0402_1005Metric"
 			(at 69.85 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6943,7 +6943,7 @@
 	)
 	(symbol
 		(lib_name "RT9193_1")
-		(lib_id "RWN_Symbols:RT9193")
+		(lib_id "RM_Guided_Dart_Base_HW:RT9193_1")
 		(at 44.45 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -6974,7 +6974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:SOT-23-5"
 			(at 44.45 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -7187,7 +7187,7 @@
 	)
 	(symbol
 		(lib_name "RT9193_1")
-		(lib_id "RWN_Symbols:RT9193")
+		(lib_id "RM_Guided_Dart_Base_HW:RT9193_1")
 		(at 44.45 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -7218,7 +7218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:SOT-23-5"
 			(at 44.45 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7276,7 +7276,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "RM_Guided_Dart_Base_HW:C")
 		(at 151.13 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -7309,7 +7309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:C_0603_1608Metric"
 			(at 152.0952 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7435,7 +7435,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x24_MountingPin")
+		(lib_id "RM_Guided_Dart_Base_HW:Conn_01x24_MountingPin")
 		(at 124.46 53.34 0)
 		(mirror y)
 		(unit 1)
@@ -7468,7 +7468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RWN_Footprints:FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal"
 			(at 124.46 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7586,7 +7586,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "RM_Guided_Dart_Base_HW:C_Small")
 		(at 60.96 38.1 0)
 		(mirror x)
 		(unit 1)
@@ -7617,7 +7617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:C_0603_1608Metric"
 			(at 60.96 38.1 0)
 			(hide yes)
 			(show_name no)

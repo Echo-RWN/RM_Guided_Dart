@@ -1,3 +1,4 @@
 (fp_lib_table
 	(version 7)
+	(lib (name "RM_Guided_Dart_Base_HW-Footprints") (type "KiCad") (uri "${KIPRJMOD}/RM_Guided_Dart_Base_HW-Library/RM_Guided_Dart_Base_HW-Footprints") (options "") (descr ""))
 )

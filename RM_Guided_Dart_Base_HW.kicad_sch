@@ -5,7 +5,7 @@
 	(uuid "6ed09268-0e95-41b2-b676-0d7bbc40f5ee")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x03"
+		(symbol "RM_Guided_Dart_Base_HW:Conn_01x03"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -192,7 +192,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic_MountingPin:Conn_01x04_MountingPin"
+		(symbol "RM_Guided_Dart_Base_HW:Conn_01x04_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -447,7 +447,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic_MountingPin:Conn_01x06_MountingPin"
+		(symbol "RM_Guided_Dart_Base_HW:Conn_01x06_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -760,7 +760,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic_MountingPin:Conn_01x22_MountingPin"
+		(symbol "RM_Guided_Dart_Base_HW:Conn_01x22_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1537,7 +1537,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic_MountingPin:Conn_01x31_MountingPin"
+		(symbol "RM_Guided_Dart_Base_HW:Conn_01x31_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -2575,35 +2575,234 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Core_moudle:LicheeRV_Nano"
+		(symbol "RM_Guided_Dart_Base_HW:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U?"
-				(at 5.08 6.35 0)
+			(property "Reference" "D"
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RM_Guided_Dart_Base_HW:LicheeRV_Nano"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U1"
+				(at 62.23 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "Value" "LicheeRV_Nano"
-				(at 105.41 6.35 0)
+				(at 62.23 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Module:LicheeRV_Nano"
+			(property "Footprint" "RWN_Footprints:LicheeRV_Nano_THT"
 				(at 12.7 -49.53 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2615,7 +2814,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 2.54 0 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2629,7 +2828,6 @@
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3141,7 +3339,7 @@
 				(pin passive line
 					(at 121.92 -2.54 180)
 					(length 2.54)
-					(name "PWM_6/JTAG_TMS/UART1_RTS/UART1_TX/GPIOA_18"
+					(name "PWM_6/JTAG_TCK/UART1_RTS/UART1_TX/GPIOA_18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3159,7 +3357,7 @@
 				(pin passive line
 					(at 121.92 0 180)
 					(length 2.54)
-					(name "PWM_7/JTAG_TCK/UART1_CTS/UART1_RX/GPIOA_19"
+					(name "PWM_7/JTAG_TMS/UART1_CTS/UART1_RX/GPIOA_19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3177,7 +3375,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
+		(symbol "RM_Guided_Dart_Base_HW:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3186,12 +3384,12 @@
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "H"
+				(at 0 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3200,8 +3398,8 @@
 					)
 				)
 			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3232,7 +3430,7 @@
 					)
 				)
 			)
-			(property "Description" "Light emitting diode"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3243,7 +3441,7 @@
 					)
 				)
 			)
-			(property "Sim.Pins" "1=K 2=A"
+			(property "ki_keywords" "mounting hole"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3254,7 +3452,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "LED diode"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3265,72 +3463,12 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
+						(width 1.27)
 						(type default)
 					)
 					(fill
@@ -3338,11 +3476,11 @@
 					)
 				)
 			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
 					(length 2.54)
-					(name "K"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3357,28 +3495,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Small"
+		(symbol "RM_Guided_Dart_Base_HW:R_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3519,7 +3639,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
+		(symbol "RM_Guided_Dart_Base_HW:SW_Push"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3528,22 +3648,23 @@
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom no)
+			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 6.35 0)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3553,7 +3674,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3564,6 +3685,17 @@
 				)
 			)
 			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3574,7 +3706,7 @@
 					)
 				)
 			)
-			(property "Description" "Mounting Hole with connection"
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3585,44 +3717,55 @@
 					)
 				)
 			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
+			(symbol "SW_Push_0_1"
 				(circle
-					(center 0 1.27)
-					(radius 1.27)
+					(center -2.032 0)
+					(radius 0.508)
 					(stroke
-						(width 1.27)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -3639,10 +3782,28 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Seeed_Studio_XIAO_Series:XIAO-ESP32-C5-DIP"
+		(symbol "RM_Guided_Dart_Base_HW:XIAO-ESP32-C5-DIP"
 			(pin_names
 				(offset 1.016)
 			)
@@ -3963,170 +4124,6 @@
 						)
 					)
 					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6798,7 +6795,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "RM_Guided_Dart_Base_HW:MountingHole_Pad")
 		(at 144.78 181.61 0)
 		(unit 1)
 		(body_style 1)
@@ -6831,7 +6828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:MountingHole_3.2mm_M3_Pad_Via"
 			(at 144.78 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -7035,7 +7032,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "RM_Guided_Dart_Base_HW:R_Small")
 		(at 38.1 135.89 90)
 		(unit 1)
 		(body_style 1)
@@ -7065,7 +7062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:R_0402_1005Metric"
 			(at 38.1 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7114,7 +7111,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x06_MountingPin")
+		(lib_id "RM_Guided_Dart_Base_HW:Conn_01x06_MountingPin")
 		(at 185.42 137.16 0)
 		(unit 1)
 		(body_style 1)
@@ -7147,7 +7144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal"
 			(at 185.42 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -7603,7 +7600,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "RM_Guided_Dart_Base_HW:LED")
 		(at 78.74 91.44 0)
 		(mirror y)
 		(unit 1)
@@ -7634,7 +7631,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:LED_0402_1005Metric"
 			(at 78.74 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -7931,7 +7928,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "RM_Guided_Dart_Base_HW:MountingHole_Pad")
 		(at 74.93 181.61 0)
 		(unit 1)
 		(body_style 1)
@@ -7964,7 +7961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:MountingHole_3.2mm_M3_Pad_Via"
 			(at 74.93 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -8010,7 +8007,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
+		(lib_id "RM_Guided_Dart_Base_HW:Conn_01x03")
 		(at 259.08 132.08 0)
 		(unit 1)
 		(body_style 1)
@@ -8043,7 +8040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RWN_Footprints:Connector_Servo_JR_3P_2.54mm_WirePad"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:Connector_Servo_JR_3P_2.54mm_WirePad"
 			(at 259.08 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8172,7 +8169,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "RM_Guided_Dart_Base_HW:R_Small")
 		(at 38.1 143.51 90)
 		(unit 1)
 		(body_style 1)
@@ -8202,7 +8199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:R_0402_1005Metric"
 			(at 38.1 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -8411,7 +8408,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "RM_Guided_Dart_Base_HW:MountingHole_Pad")
 		(at 97.79 181.61 0)
 		(unit 1)
 		(body_style 1)
@@ -8444,7 +8441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:MountingHole_3.2mm_M3_Pad_Via"
 			(at 97.79 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -8490,7 +8487,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "RM_Guided_Dart_Base_HW:SW_Push")
 		(at 226.06 114.3 0)
 		(mirror y)
 		(unit 1)
@@ -8521,7 +8518,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 226.06 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -8570,7 +8567,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "RM_Guided_Dart_Base_HW:R_Small")
 		(at 54.61 62.23 90)
 		(unit 1)
 		(body_style 1)
@@ -8600,7 +8597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:R_0402_1005Metric"
 			(at 54.61 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -8889,7 +8886,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x22_MountingPin")
+		(lib_id "RM_Guided_Dart_Base_HW:Conn_01x22_MountingPin")
 		(at 29.21 54.61 0)
 		(mirror y)
 		(unit 1)
@@ -8922,7 +8919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RWN_Footprints:FPC-SMD_22P-P1.00_AFC11-S22ICC-00"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:FPC-SMD_22P-P1.00_AFC11-S22ICC-00"
 			(at 29.21 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -9113,7 +9110,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
+		(lib_id "RM_Guided_Dart_Base_HW:Conn_01x03")
 		(at 234.95 132.08 0)
 		(unit 1)
 		(body_style 1)
@@ -9146,7 +9143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RWN_Footprints:Connector_Servo_JR_3P_2.54mm_WirePad"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:Connector_Servo_JR_3P_2.54mm_WirePad"
 			(at 234.95 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -9198,7 +9195,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "RM_Guided_Dart_Base_HW:R_Small")
 		(at 72.39 91.44 90)
 		(unit 1)
 		(body_style 1)
@@ -9228,7 +9225,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:R_0402_1005Metric"
 			(at 72.39 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9514,7 +9511,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "RM_Guided_Dart_Base_HW:MountingHole_Pad")
 		(at 120.65 181.61 0)
 		(unit 1)
 		(body_style 1)
@@ -9547,7 +9544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:MountingHole_3.2mm_M3_Pad_Via"
 			(at 120.65 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -9989,7 +9986,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x31_MountingPin")
+		(lib_id "RM_Guided_Dart_Base_HW:Conn_01x31_MountingPin")
 		(at 29.21 138.43 0)
 		(mirror y)
 		(unit 1)
@@ -10020,7 +10017,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:Hirose_FH26-31S-0.3SHW_2Rows-31Pins-1MP_P0.60mm_Horizontal"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:Hirose_FH26-31S-0.3SHW_2Rows-31Pins-1MP_P0.60mm_Horizontal"
 			(at 29.21 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -11094,7 +11091,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "RM_Guided_Dart_Base_HW:R_Small")
 		(at 218.44 109.22 90)
 		(unit 1)
 		(body_style 1)
@@ -11124,7 +11121,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:R_0402_1005Metric"
 			(at 218.44 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -11173,7 +11170,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Core_moudle:LicheeRV_Nano")
+		(lib_id "RM_Guided_Dart_Base_HW:LicheeRV_Nano")
 		(at 82.55 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -11204,7 +11201,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RWN_Footprints:LicheeRV_Nano_THT"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:LicheeRV_Nano_THT"
 			(at 95.25 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -11330,7 +11327,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "RM_Guided_Dart_Base_HW:R_Small")
 		(at 139.7 157.48 90)
 		(unit 1)
 		(body_style 1)
@@ -11360,7 +11357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:R_0402_1005Metric"
 			(at 139.7 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -11569,7 +11566,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
+		(lib_id "RM_Guided_Dart_Base_HW:Conn_01x03")
 		(at 234.95 147.32 0)
 		(unit 1)
 		(body_style 1)
@@ -11602,7 +11599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RWN_Footprints:Connector_Servo_JR_3P_2.54mm_WirePad"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:Connector_Servo_JR_3P_2.54mm_WirePad"
 			(at 234.95 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -11731,7 +11728,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
+		(lib_id "RM_Guided_Dart_Base_HW:Conn_01x03")
 		(at 259.08 147.32 0)
 		(unit 1)
 		(body_style 1)
@@ -11764,7 +11761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RWN_Footprints:Connector_Servo_JR_3P_2.54mm_WirePad"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:Connector_Servo_JR_3P_2.54mm_WirePad"
 			(at 259.08 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -12285,7 +12282,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
+		(lib_id "RM_Guided_Dart_Base_HW:Conn_01x04_MountingPin")
 		(at 212.09 137.16 0)
 		(unit 1)
 		(body_style 1)
@@ -12318,7 +12315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal"
 			(at 212.09 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -12456,7 +12453,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "RM_Guided_Dart_Base_HW:R_Small")
 		(at 218.44 106.68 90)
 		(unit 1)
 		(body_style 1)
@@ -12486,7 +12483,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:R_0603_1608Metric"
 			(at 218.44 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -12535,7 +12532,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Seeed_Studio_XIAO_Series:XIAO-ESP32-C5-DIP")
+		(lib_id "RM_Guided_Dart_Base_HW:XIAO-ESP32-C5-DIP")
 		(at 109.22 160.02 0)
 		(unit 1)
 		(body_style 1)
@@ -12566,7 +12563,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Seeed_Studio_XIAO_Series:XIAO-ESP32-C5-SMD"
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:XIAO-ESP32-C5-SMD"
 			(at 100.33 154.94 0)
 			(hide yes)
 			(show_name no)
