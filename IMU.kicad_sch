@@ -1408,7 +1408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a4a1c95-f798-4bef-b4dc-312285f041c5")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0115"
 			(at 97.79 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1468,7 +1468,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee/8622f810-d5b7-4ecf-9f23-e3bd128862ca"
-					(reference "#PWR0105")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -1485,7 +1485,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1799e8a6-3a7b-4851-93bd-ac470d7eb102")
-		(property "Reference" "R39"
+		(property "Reference" "R42"
 			(at 57.15 63.246 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1547,7 +1547,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee/8622f810-d5b7-4ecf-9f23-e3bd128862ca"
-					(reference "R39")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -1689,7 +1689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d3104d4-7665-43be-b871-eb7fe352c55c")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0114"
 			(at 82.55 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1749,7 +1749,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee/8622f810-d5b7-4ecf-9f23-e3bd128862ca"
-					(reference "#PWR0104")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -1767,7 +1767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "712d795a-1780-4d0b-9c2b-08a64e312950")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0117"
 			(at 137.16 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -1827,7 +1827,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee/8622f810-d5b7-4ecf-9f23-e3bd128862ca"
-					(reference "#PWR0107")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -1845,7 +1845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d673fca-f98f-4082-876f-9982bb3f44f0")
-		(property "Reference" "R40"
+		(property "Reference" "R43"
 			(at 105.41 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1909,7 +1909,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee/8622f810-d5b7-4ecf-9f23-e3bd128862ca"
-					(reference "R40")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -1927,7 +1927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e384219-f813-44d7-b922-990c32b4b9df")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0118"
 			(at 147.32 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -1987,7 +1987,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee/8622f810-d5b7-4ecf-9f23-e3bd128862ca"
-					(reference "#PWR0108")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -2005,7 +2005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f8555e3-0dec-46ec-9b6f-8daa23ae0f58")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0116"
 			(at 137.16 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -2065,7 +2065,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee/8622f810-d5b7-4ecf-9f23-e3bd128862ca"
-					(reference "#PWR0106")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -2082,7 +2082,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93c95928-9977-4988-90f7-7e4cb2be186d")
-		(property "Reference" "C46"
+		(property "Reference" "C47"
 			(at 149.606 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2146,7 +2146,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee/8622f810-d5b7-4ecf-9f23-e3bd128862ca"
-					(reference "C46")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -2164,7 +2164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94aec806-25d5-46c7-833d-65d1f2102091")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0113"
 			(at 82.55 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -2224,7 +2224,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee/8622f810-d5b7-4ecf-9f23-e3bd128862ca"
-					(reference "#PWR0103")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -2242,7 +2242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e46a55b2-d127-4af7-9ede-1f29d54aeaa2")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0119"
 			(at 147.32 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2302,7 +2302,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee/8622f810-d5b7-4ecf-9f23-e3bd128862ca"
-					(reference "#PWR0109")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -2319,7 +2319,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9306c6d-84bd-400c-9b0e-0c2d81c6813d")
-		(property "Reference" "C45"
+		(property "Reference" "C46"
 			(at 139.446 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2383,7 +2383,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee/8622f810-d5b7-4ecf-9f23-e3bd128862ca"
-					(reference "C45")
+					(reference "C46")
 					(unit 1)
 				)
 			)

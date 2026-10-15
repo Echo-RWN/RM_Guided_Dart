@@ -4806,15 +4806,47 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 300.355 31.75)
+		(end 354.33 72.39)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4bb28e42-be31-40f3-b3ea-2ce9f69f13f0")
+	)
+	(text "已解决"
+		(exclude_from_sim no)
+		(at 348.488 43.434 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "12dd3fa9-9451-4093-9fe1-d9e82e6fc3c3")
+	)
 	(text "PWM[15]"
 		(exclude_from_sim no)
-		(at 44.196 147.828 0)
+		(at 43.942 127.508 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "1a1523c9-38fc-4e63-9246-5438614e1b07")
+	)
+	(text "已解决"
+		(exclude_from_sim no)
+		(at 347.726 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3462a323-5137-45fc-90a5-9942bf05d02b")
 	)
 	(text "未使用"
 		(exclude_from_sim no)
@@ -4826,6 +4858,16 @@
 		)
 		(uuid "368c4103-739e-4660-8fe9-932798cd022a")
 	)
+	(text "双通道开关瞬间会有大电流，直接上电反而不会，\n同时TP5100会瞬间烧穿，目前未排查出原因"
+		(exclude_from_sim no)
+		(at 325.12 43.434 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "534e4fc9-4f8b-4272-b2d8-c9522858208c")
+	)
 	(text "未使用"
 		(exclude_from_sim no)
 		(at 48.26 64.008 0)
@@ -4836,15 +4878,55 @@
 		)
 		(uuid "54a3f8b7-21ed-498e-bb9c-d6c88106446b")
 	)
+	(text "最好用mos作开关"
+		(exclude_from_sim no)
+		(at 327.152 59.436 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "57974f33-7821-4be6-b4ae-794ae2775301")
+	)
+	(text "镖头灯未加"
+		(exclude_from_sim no)
+		(at 325.12 48.006 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "58b31731-c4d7-4110-8c8d-cfaa2e7f8549")
+	)
 	(text "PWM[14]"
 		(exclude_from_sim no)
-		(at 44.196 150.368 0)
+		(at 43.942 124.968 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "61aa0968-3257-4d36-a879-eaed662ad701")
+	)
+	(text "错误："
+		(exclude_from_sim no)
+		(at 315.976 34.544 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "778a0583-81e7-4ddd-9728-6d595be4be60")
+	)
+	(text "AON7407 Vgs耐压只有+-8V"
+		(exclude_from_sim no)
+		(at 326.644 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "975208bc-e8de-41a1-921b-142e3e64b258")
 	)
 	(text "未使用"
 		(exclude_from_sim no)
@@ -4856,6 +4938,16 @@
 		)
 		(uuid "981b7ee7-27e2-4202-b2b8-8a5d5596e0dd")
 	)
+	(text "无需解决"
+		(exclude_from_sim no)
+		(at 347.98 62.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a1d2a676-7477-4a03-baee-999d9ba25fe0")
+	)
 	(text "未使用"
 		(exclude_from_sim no)
 		(at 48.006 56.388 0)
@@ -4866,15 +4958,125 @@
 		)
 		(uuid "a87e6463-6073-4234-bb9f-c48dc05c74bf")
 	)
+	(text "已解决"
+		(exclude_from_sim no)
+		(at 348.742 47.752 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "adc689c2-6059-47c0-9baa-55eeee4d7daa")
+	)
+	(text "已解决"
+		(exclude_from_sim no)
+		(at 347.472 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bafa1111-09d2-4297-b554-3b4d585cd4c5")
+	)
+	(text "XT30接口正负颠倒"
+		(exclude_from_sim no)
+		(at 324.866 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c1f02804-31bd-48e6-99c5-8c79fd8e4483")
+	)
+	(text "已解决"
+		(exclude_from_sim no)
+		(at 347.218 59.436 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c3888237-0930-4d53-9ae5-3300eb82d4eb")
+	)
+	(text "已解决"
+		(exclude_from_sim no)
+		(at 348.742 51.816 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c5cd0d0c-8411-4568-a96e-a3b1c33acfab")
+	)
+	(text "充电回路加了typec输入mos后\n在开关切换瞬间会烧tp5100"
+		(exclude_from_sim no)
+		(at 324.866 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cad72744-2ef5-4624-91d4-476674b059b1")
+	)
+	(text "已解决"
+		(exclude_from_sim no)
+		(at 347.726 69.596 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d05d2f5c-5172-4921-a251-781e2fdefff0")
+	)
 	(text "未使用"
 		(exclude_from_sim no)
-		(at 48.768 165.608 0)
+		(at 39.624 111.506 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "d5854cb6-f194-41a6-9ea6-d20da378063a")
+	)
+	(text "取消丝印反显"
+		(exclude_from_sim no)
+		(at 326.136 66.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e2b5589f-ddde-4bca-9710-0ae022d354ff")
+	)
+	(text "已解决"
+		(exclude_from_sim no)
+		(at 348.488 38.354 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e3d62e3c-d236-4f92-9430-cd35ac614842")
+	)
+	(text "DSI排线座反了"
+		(exclude_from_sim no)
+		(at 325.12 56.134 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f3095939-eb44-4d09-b34e-747b6a834fad")
+	)
+	(text "IMU加热电阻最好加上"
+		(exclude_from_sim no)
+		(at 327.66 63.246 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f4e85890-5b25-404d-adba-b4421422c546")
 	)
 	(junction
 		(at 185.42 149.86)
@@ -4883,7 +5085,7 @@
 		(uuid "84c56a55-92ea-4a1d-9767-2d1785d25952")
 	)
 	(junction
-		(at 212.09 147.32)
+		(at 208.28 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bb19f01-f64a-4cc0-9fe2-0d70fdbd222e")
@@ -4897,7 +5099,7 @@
 		(uuid "5705c6c2-fc69-445b-9150-cd62cc26e048")
 	)
 	(no_connect
-		(at 34.29 107.95)
+		(at 34.29 168.91)
 		(uuid "70e111dc-ef5c-4be9-a370-b0894d137feb")
 	)
 	(no_connect
@@ -4913,7 +5115,7 @@
 		(uuid "b5633112-27a5-4fae-991c-c7044c187cf3")
 	)
 	(no_connect
-		(at 34.29 158.75)
+		(at 34.29 118.11)
 		(uuid "b56caf8d-bc93-4ae2-b450-ff5b5e9a016f")
 	)
 	(no_connect
@@ -4929,15 +5131,15 @@
 		(uuid "c37407a0-3f23-484f-ad5e-51c829e948a5")
 	)
 	(no_connect
-		(at 34.29 156.21)
+		(at 34.29 120.65)
 		(uuid "c61d8a16-b01a-4251-9333-c7624d5aa4b1")
 	)
 	(no_connect
-		(at 34.29 125.73)
+		(at 34.29 151.13)
 		(uuid "c6b7b869-edb1-420d-b1a5-b5e5d5224bec")
 	)
 	(no_connect
-		(at 34.29 128.27)
+		(at 34.29 148.59)
 		(uuid "f05676f3-38c5-4e68-b2f9-24b4961bd492")
 	)
 	(no_connect
@@ -4960,7 +5162,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 163.83) (xy 34.29 163.83)
+			(xy 46.99 113.03) (xy 34.29 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5010,7 +5212,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 161.29) (xy 34.29 161.29)
+			(xy 46.99 115.57) (xy 34.29 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5130,7 +5332,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 168.91) (xy 34.29 168.91)
+			(xy 46.99 107.95) (xy 34.29 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5150,13 +5352,23 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 153.67) (xy 34.29 153.67)
+			(xy 46.99 123.19) (xy 34.29 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "44b5b396-5422-4070-a36a-4c8a0fcf4d8c")
+	)
+	(wire
+		(pts
+			(xy 41.91 135.89) (xy 34.29 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b32705f-5e3b-423e-8572-6d047f2aeb9f")
 	)
 	(wire
 		(pts
@@ -5200,7 +5412,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 142.24) (xy 207.01 147.32)
+			(xy 203.2 149.86) (xy 203.2 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5210,7 +5422,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 176.53) (xy 34.29 176.53)
+			(xy 46.99 100.33) (xy 34.29 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5220,7 +5432,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 120.65) (xy 34.29 120.65)
+			(xy 46.99 156.21) (xy 34.29 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5230,7 +5442,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 143.51) (xy 34.29 143.51)
+			(xy 35.56 133.35) (xy 34.29 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5280,7 +5492,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 135.89) (xy 34.29 135.89)
+			(xy 35.56 140.97) (xy 34.29 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5290,7 +5502,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 171.45) (xy 34.29 171.45)
+			(xy 46.99 105.41) (xy 34.29 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5320,13 +5532,23 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 173.99) (xy 34.29 173.99)
+			(xy 46.99 102.87) (xy 34.29 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7ed84314-4a9e-4c35-a85d-83665441af7a")
+	)
+	(wire
+		(pts
+			(xy 200.66 133.35) (xy 203.2 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb6851a-513b-4737-a9ca-5d63463027e5")
 	)
 	(wire
 		(pts
@@ -5367,6 +5589,16 @@
 			(type default)
 		)
 		(uuid "88b4d163-6503-47b3-8b1f-4df881b9df47")
+	)
+	(wire
+		(pts
+			(xy 203.2 133.35) (xy 203.2 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b08c9ad-9126-442b-a02e-f9cc0b7e8e4a")
 	)
 	(wire
 		(pts
@@ -5430,7 +5662,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 130.81) (xy 34.29 130.81)
+			(xy 46.99 146.05) (xy 34.29 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5500,16 +5732,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 146.05) (xy 34.29 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a71230c5-e27e-4ac1-9414-d60414f9b590")
-	)
-	(wire
-		(pts
 			(xy 83.82 101.6) (xy 85.09 101.6)
 		)
 		(stroke
@@ -5570,7 +5792,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 147.32) (xy 212.09 147.32)
+			(xy 203.2 154.94) (xy 208.28 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5590,7 +5812,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 123.19) (xy 34.29 123.19)
+			(xy 46.99 153.67) (xy 34.29 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5660,7 +5882,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 143.51) (xy 40.64 143.51)
+			(xy 41.91 133.35) (xy 40.64 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5710,7 +5932,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 135.89) (xy 40.64 135.89)
+			(xy 41.91 140.97) (xy 40.64 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5747,6 +5969,16 @@
 			(type default)
 		)
 		(uuid "d37145bb-8d78-40fe-a496-830e6dbcc6a7")
+	)
+	(wire
+		(pts
+			(xy 41.91 143.51) (xy 34.29 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dec03e61-6b3e-480c-8e3c-b85bfcc3e816")
 	)
 	(wire
 		(pts
@@ -5797,6 +6029,16 @@
 			(type default)
 		)
 		(uuid "ed0c1822-bc9d-4ef3-ad0f-dd0b45687210")
+	)
+	(wire
+		(pts
+			(xy 34.29 130.81) (xy 46.99 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef979a9f-a7b8-40e1-a178-f5cc438a74ac")
 	)
 	(wire
 		(pts
@@ -5867,6 +6109,16 @@
 			(justify right bottom)
 		)
 		(uuid "098e5a3b-cf4d-4f07-8c68-674e3a3ecb27")
+	)
+	(label "PWM1"
+		(at 229.87 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "111d5c3a-38e9-4805-992f-500c5793df52")
 	)
 	(label "JTAG_TCK"
 		(at 205.74 86.36 0)
@@ -5942,7 +6194,7 @@
 		(uuid "1fae9e3b-4b02-4408-9af3-46078a68dc24")
 	)
 	(label "LCD0_BL-"
-		(at 34.29 110.49 0)
+		(at 34.29 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5962,7 +6214,7 @@
 		(uuid "2464ff66-fcd7-46b4-b06e-206127db8c65")
 	)
 	(label "PWM3"
-		(at 34.29 151.13 0)
+		(at 34.29 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5972,7 +6224,7 @@
 		)
 		(uuid "28141260-e039-412c-84c3-10573537d6fa")
 		(property "网络类" ""
-			(at 34.29 149.86 0)
+			(at 34.29 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6005,7 +6257,7 @@
 		(uuid "2bab3bca-0bbb-4c95-8530-7ce7f6118738")
 	)
 	(label "UART3_TX"
-		(at 207.01 137.16 180)
+		(at 203.2 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6035,7 +6287,7 @@
 		(uuid "35602db8-59b3-4682-ab40-375b43842545")
 	)
 	(label "LCD0_BL+"
-		(at 34.29 105.41 0)
+		(at 34.29 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6114,16 +6366,6 @@
 		)
 		(uuid "49405cf3-d888-48e0-a0a7-7033b17ca700")
 	)
-	(label "PWM1"
-		(at 229.87 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4a8a7032-abe3-47f0-9640-52da8169b24b")
-	)
 	(label "CAM_IO1"
 		(at 34.29 72.39 0)
 		(effects
@@ -6143,16 +6385,6 @@
 			(justify left bottom)
 		)
 		(uuid "4f5689e0-2973-4737-8291-156affafc9c6")
-	)
-	(label "PWM1"
-		(at 83.82 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "50288d6c-f640-41b2-b99b-bd056d27caeb")
 	)
 	(label "CAM_IO0"
 		(at 85.09 39.37 180)
@@ -6205,7 +6437,7 @@
 		(uuid "58b81e0f-9229-4858-9c25-1803014b34ec")
 	)
 	(label "SPI0_CS"
-		(at 34.29 133.35 0)
+		(at 41.91 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6215,7 +6447,7 @@
 		(uuid "5dca8031-cfad-40a2-87dd-73cb831f5ba1")
 	)
 	(label "UART3_RX"
-		(at 207.01 139.7 180)
+		(at 203.2 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6225,7 +6457,7 @@
 		(uuid "6068556a-1332-4034-9ff9-f4d646547999")
 	)
 	(label "SPI0_SDI"
-		(at 34.29 140.97 0)
+		(at 41.91 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6234,8 +6466,31 @@
 		)
 		(uuid "60ab7f99-5efd-4587-97ff-152d8717928f")
 	)
+	(label "PWM2"
+		(at 229.87 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6279cf73-c821-40db-bb03-f963aad8e532")
+		(property "网络类" ""
+			(at 229.87 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
 	(label "LCD0_RESET"
-		(at 34.29 166.37 0)
+		(at 34.29 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6255,7 +6510,7 @@
 		(uuid "74ded2fe-5214-436b-8ace-667c0cc653aa")
 	)
 	(label "SPI0_SDO"
-		(at 41.91 143.51 0)
+		(at 41.91 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6304,6 +6559,16 @@
 		)
 		(uuid "85e0e38b-0b39-415b-9cfc-772ca4d485ac")
 	)
+	(label "UART"
+		(at 200.66 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "883b5d8d-aed0-4bc6-b06b-471ddb9fcc1d")
+	)
 	(label "MIPI_RX2_N"
 		(at 34.29 46.99 0)
 		(effects
@@ -6325,7 +6590,7 @@
 		(uuid "8f29ba65-3316-47d8-8155-d0dc8756555f")
 	)
 	(label "LCD0_BL+"
-		(at 34.29 102.87 0)
+		(at 34.29 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6334,54 +6599,8 @@
 		)
 		(uuid "95fdfecb-edc6-485d-8857-bd3c7434110c")
 	)
-	(label "PWM2"
-		(at 83.82 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "981b1e0e-c3fe-4d26-a15b-81440ca5c451")
-		(property "网络类" ""
-			(at 83.82 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
-	(label "PWM2"
-		(at 229.87 144.78 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "990540a5-8f16-4451-842e-3213cc1b26b0")
-		(property "网络类" ""
-			(at 229.87 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
 	(label "LCD0_BL-"
-		(at 34.29 115.57 0)
+		(at 34.29 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6474,7 +6693,7 @@
 		(uuid "ac74e15e-d851-40d2-b45b-230add2362ae")
 	)
 	(label "SPI0_SCK"
-		(at 41.91 135.89 0)
+		(at 41.91 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6482,6 +6701,16 @@
 			(justify left bottom)
 		)
 		(uuid "ae7fb87e-e7d8-4cbc-9d47-5a771938f20b")
+	)
+	(label "PWM1"
+		(at 83.82 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b2e37e37-be3c-49b1-85f7-03d617f4db2d")
 	)
 	(label "JTAG_TMS"
 		(at 180.34 134.62 180)
@@ -6514,7 +6743,7 @@
 		(uuid "c22f199e-10b3-4682-b019-49d4237c9690")
 	)
 	(label "LCD0_BL-"
-		(at 34.29 113.03 0)
+		(at 34.29 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6544,7 +6773,7 @@
 		(uuid "c9558d4e-9bc2-4e39-b975-f4e0021e702b")
 	)
 	(label "LCD0_BL+"
-		(at 34.29 100.33 0)
+		(at 34.29 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6594,7 +6823,7 @@
 		(uuid "e1eea267-f5d1-4444-9c70-653fa94f9008")
 	)
 	(label "PWM4"
-		(at 34.29 148.59 0)
+		(at 34.29 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6604,7 +6833,7 @@
 		)
 		(uuid "e4911114-3b8d-49c8-8e8d-f71dd51f65fb")
 		(property "网络类" ""
-			(at 34.29 147.32 0)
+			(at 34.29 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6613,6 +6842,29 @@
 					(italic yes)
 				)
 				(justify left)
+			)
+		)
+	)
+	(label "PWM2"
+		(at 83.82 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea0f37eb-3dec-437e-a59e-c2e3cfe2dc0e")
+		(property "网络类" ""
+			(at 83.82 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -6667,7 +6919,7 @@
 		(uuid "efc6d30a-8a68-40b8-a119-dadb1fdcb2ab")
 	)
 	(label "LCD0_BL-"
-		(at 34.29 118.11 0)
+		(at 34.29 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6728,7 +6980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0054e606-5847-4031-b3e3-a67329314a29")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR027"
 			(at 97.79 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -6788,7 +7040,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR0114")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -6875,8 +7127,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 46.99 163.83 270)
-		(mirror x)
+		(at 46.99 113.03 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6886,8 +7137,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b53f162-6585-4e3a-bbcd-c3012400a3ff")
-		(property "Reference" "#PWR017"
-			(at 43.18 163.83 0)
+		(property "Reference" "#PWR015"
+			(at 43.18 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6898,7 +7149,7 @@
 			)
 		)
 		(property "Value" "+1V8_SYS_1"
-			(at 50.8 163.8299 90)
+			(at 50.8 113.0301 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6909,7 +7160,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 163.83 0)
+			(at 46.99 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6920,7 +7171,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 163.83 0)
+			(at 46.99 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6931,7 +7182,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 46.99 163.83 0)
+			(at 46.99 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6947,7 +7198,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR017")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7033,7 +7284,8 @@
 	)
 	(symbol
 		(lib_id "RM_Guided_Dart_Base_HW:R_Small")
-		(at 38.1 135.89 90)
+		(at 38.1 140.97 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7042,8 +7294,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0eac3db5-ca1b-41ee-9f4a-9ee98bf7addf")
-		(property "Reference" "R1"
-			(at 38.1 133.604 90)
+		(property "Reference" "R2"
+			(at 38.1 138.684 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7053,7 +7305,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 38.1 134.62 90)
+			(at 38.1 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7063,7 +7315,7 @@
 			)
 		)
 		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:R_0402_1005Metric"
-			(at 38.1 135.89 0)
+			(at 38.1 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7074,7 +7326,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 135.89 0)
+			(at 38.1 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7085,7 +7337,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 38.1 135.89 0)
+			(at 38.1 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7104,7 +7356,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7209,8 +7461,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 168.91 90)
-		(mirror x)
+		(at 46.99 107.95 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7220,8 +7471,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16019c36-db6e-42b6-b907-c1156a76844b")
-		(property "Reference" "#PWR018"
-			(at 53.34 168.91 0)
+		(property "Reference" "#PWR014"
+			(at 53.34 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7232,7 +7483,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 168.9101 90)
+			(at 50.8 107.9499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7243,7 +7494,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 168.91 0)
+			(at 46.99 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7254,7 +7505,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 168.91 0)
+			(at 46.99 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7265,7 +7516,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 168.91 0)
+			(at 46.99 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7281,7 +7532,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR018")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7289,8 +7540,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 153.67 90)
-		(mirror x)
+		(at 46.99 123.19 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7300,8 +7550,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c6db674-86bb-4319-b4c1-0eb1c954af6f")
-		(property "Reference" "#PWR015"
-			(at 53.34 153.67 0)
+		(property "Reference" "#PWR017"
+			(at 53.34 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7312,7 +7562,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 153.6701 90)
+			(at 50.8 123.1899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7323,7 +7573,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 153.67 0)
+			(at 46.99 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7334,7 +7584,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 153.67 0)
+			(at 46.99 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7345,7 +7595,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 153.67 0)
+			(at 46.99 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7361,7 +7611,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR015")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7369,7 +7619,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 212.09 147.32 0)
+		(at 208.28 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7379,8 +7629,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1df1d1cf-918d-4f69-a86c-684319054c14")
-		(property "Reference" "#PWR035"
-			(at 212.09 153.67 0)
+		(property "Reference" "#PWR041"
+			(at 208.28 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7391,7 +7641,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.09 152.4 0)
+			(at 208.28 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7401,7 +7651,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 147.32 0)
+			(at 208.28 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7412,7 +7662,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 147.32 0)
+			(at 208.28 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7423,7 +7673,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 147.32 0)
+			(at 208.28 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7439,7 +7689,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR035")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -7456,7 +7706,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20752ff6-b6f6-4456-94e4-2e7a39930352")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR047"
 			(at 257.81 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7516,7 +7766,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR041")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -7524,7 +7774,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 229.87 134.62 270)
+		(at 229.87 149.86 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7533,8 +7783,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22a28db4-6081-4aae-9a31-41006013cee0")
-		(property "Reference" "#PWR038"
-			(at 223.52 134.62 0)
+		(property "Reference" "#PWR045"
+			(at 223.52 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7545,7 +7795,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.282 134.62 90)
+			(at 224.282 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7555,7 +7805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 134.62 0)
+			(at 229.87 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7566,7 +7816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 134.62 0)
+			(at 229.87 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7577,7 +7827,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 134.62 0)
+			(at 229.87 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7593,7 +7843,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR038")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -7701,7 +7951,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2cbb8fe9-3218-456b-8414-4465ecb4af19")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR039"
 			(at 201.93 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7761,7 +8011,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR032")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -7769,8 +8019,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 120.65 90)
-		(mirror x)
+		(at 46.99 156.21 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7780,8 +8029,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f7121cc-f11f-4668-a843-a3c9e6f87346")
-		(property "Reference" "#PWR011"
-			(at 53.34 120.65 0)
+		(property "Reference" "#PWR021"
+			(at 53.34 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7792,7 +8041,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 120.6501 90)
+			(at 50.8 156.2099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7803,7 +8052,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 120.65 0)
+			(at 46.99 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7814,7 +8063,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 120.65 0)
+			(at 46.99 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7825,7 +8074,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 120.65 0)
+			(at 46.99 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7841,7 +8090,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR011")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8018,7 +8267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fd12285-98bf-4195-9229-b6b937fb2c84")
-		(property "Reference" "J7"
+		(property "Reference" "J8"
 			(at 261.62 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8085,7 +8334,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -8102,7 +8351,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "40469be7-a8c3-4ac4-aac5-530358ec6ab8")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR033"
 			(at 180.34 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -8162,15 +8411,15 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR029")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "RM_Guided_Dart_Base_HW:R_Small")
-		(at 38.1 143.51 90)
+		(lib_id "RM_Guided_Dart_Base_HW:Conn_01x03")
+		(at 208.28 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8178,29 +8427,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "48e30cc1-05a9-460f-b222-423113f3b634")
-		(property "Reference" "R2"
-			(at 38.1 141.224 90)
+		(fields_autoplaced yes)
+		(uuid "47df17f8-ac36-4448-9f2c-9d76f6dc8d4c")
+		(property "Reference" "J4"
+			(at 210.82 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "33R"
-			(at 38.1 142.24 90)
+		(property "Value" "PWM4"
+			(at 210.82 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:R_0402_1005Metric"
-			(at 38.1 143.51 0)
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:Connector_Servo_JR_3P_2.54mm_WirePad"
+			(at 208.28 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8211,7 +8463,90 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 143.51 0)
+			(at 208.28 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 208.28 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "2fe408e0-b66f-44f1-a0e3-37c0d4eebdba")
+		)
+		(pin "2"
+			(uuid "87344d46-77a6-4cd6-aadf-5db7fb3b11ee")
+		)
+		(pin "1"
+			(uuid "dc64d04e-e79e-4889-9a61-baf8336f83ef")
+		)
+		(instances
+			(project "RM_Guided_Dart_Base_HW"
+				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RM_Guided_Dart_Base_HW:R_Small")
+		(at 38.1 133.35 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "48e30cc1-05a9-460f-b222-423113f3b634")
+		(property "Reference" "R1"
+			(at 38.1 131.064 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 38.1 132.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:R_0402_1005Metric"
+			(at 38.1 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8222,7 +8557,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 38.1 143.51 0)
+			(at 38.1 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8241,7 +8576,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -8647,8 +8982,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 46.99 176.53 270)
-		(mirror x)
+		(at 46.99 100.33 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8658,8 +8992,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55f231bd-3b0d-4c23-a7e8-f4b246d59b37")
-		(property "Reference" "#PWR021"
-			(at 43.18 176.53 0)
+		(property "Reference" "#PWR011"
+			(at 43.18 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8670,7 +9004,7 @@
 			)
 		)
 		(property "Value" "+3V3_SYS_4"
-			(at 50.8 176.5299 90)
+			(at 50.8 100.3301 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8681,7 +9015,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 176.53 0)
+			(at 46.99 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8692,7 +9026,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 176.53 0)
+			(at 46.99 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8703,7 +9037,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 46.99 176.53 0)
+			(at 46.99 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8719,7 +9053,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR021")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9042,7 +9376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61cf093b-061a-4bb9-9456-f9ba2069abf6")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR031"
 			(at 133.35 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -9103,7 +9437,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR028")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9111,7 +9445,7 @@
 	)
 	(symbol
 		(lib_id "RM_Guided_Dart_Base_HW:Conn_01x03")
-		(at 234.95 132.08 0)
+		(at 234.95 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9121,8 +9455,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63110fb0-d231-4776-9db6-ff980abcab8a")
-		(property "Reference" "J5"
-			(at 237.49 130.8099 0)
+		(property "Reference" "J7"
+			(at 237.49 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9132,8 +9466,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PWM1"
-			(at 237.49 133.3499 0)
+		(property "Value" "PWM2"
+			(at 237.49 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9144,7 +9478,7 @@
 			)
 		)
 		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:Connector_Servo_JR_3P_2.54mm_WirePad"
-			(at 234.95 132.08 0)
+			(at 234.95 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9155,7 +9489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 132.08 0)
+			(at 234.95 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9166,7 +9500,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 234.95 132.08 0)
+			(at 234.95 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9188,7 +9522,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "J5")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -9285,7 +9619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "656941a1-3f40-42cb-93d7-33d2b578a306")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR028"
 			(at 120.65 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -9345,7 +9679,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR0115")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -9363,7 +9697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c69f8c7-24c2-4625-8b73-155ca471b275")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR030"
 			(at 143.51 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -9424,7 +9758,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR027")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -9432,8 +9766,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 130.81 90)
-		(mirror x)
+		(at 46.99 146.05 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9443,8 +9776,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "745b60e1-c2c9-4bad-9973-698731d9b6db")
-		(property "Reference" "#PWR013"
-			(at 53.34 130.81 0)
+		(property "Reference" "#PWR019"
+			(at 53.34 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9455,7 +9788,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 130.8101 90)
+			(at 50.8 146.0499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9466,7 +9799,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 130.81 0)
+			(at 46.99 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9477,7 +9810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 130.81 0)
+			(at 46.99 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9488,7 +9821,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 130.81 0)
+			(at 46.99 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9504,7 +9837,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR013")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9591,7 +9924,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 229.87 149.86 270)
+		(at 229.87 134.62 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9600,8 +9933,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8016d102-6340-437a-87fd-e80c33f120c3")
-		(property "Reference" "#PWR040"
-			(at 223.52 149.86 0)
+		(property "Reference" "#PWR043"
+			(at 223.52 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9612,7 +9945,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.282 149.86 90)
+			(at 224.282 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9622,7 +9955,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 149.86 0)
+			(at 229.87 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9633,7 +9966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 149.86 0)
+			(at 229.87 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9644,7 +9977,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 149.86 0)
+			(at 229.87 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9660,7 +9993,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR040")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -9668,8 +10001,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 46.99 173.99 270)
-		(mirror x)
+		(at 46.99 102.87 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9679,8 +10011,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8373336f-6a6f-4757-ac38-7cc6fc047181")
-		(property "Reference" "#PWR020"
-			(at 43.18 173.99 0)
+		(property "Reference" "#PWR012"
+			(at 43.18 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9691,7 +10023,7 @@
 			)
 		)
 		(property "Value" "+3V3_SYS_3"
-			(at 50.8 173.9899 90)
+			(at 50.8 102.8701 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9702,7 +10034,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 173.99 0)
+			(at 46.99 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9713,7 +10045,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 173.99 0)
+			(at 46.99 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9724,7 +10056,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 46.99 173.99 0)
+			(at 46.99 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9740,7 +10072,84 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR020")
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 127 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8b1b6474-3a14-444a-abea-ede047209fcb")
+		(property "Reference" "#PWR035"
+			(at 196.85 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 197.612 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca5e739e-7855-430b-83c2-26be5ed956a1")
+		)
+		(instances
+			(project "RM_Guided_Dart_Base_HW"
+				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9838,7 +10247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "932236e8-26ad-4502-971b-7046234bd294")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 77.47 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9899,7 +10308,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9907,8 +10316,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 146.05 90)
-		(mirror x)
+		(at 46.99 130.81 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9918,8 +10326,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93ba9bc4-eb32-4a73-86cb-87501ca574f0")
-		(property "Reference" "#PWR014"
-			(at 53.34 146.05 0)
+		(property "Reference" "#PWR018"
+			(at 53.34 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9930,7 +10338,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 146.0501 90)
+			(at 50.8 130.8099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9941,7 +10349,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 146.05 0)
+			(at 46.99 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9952,7 +10360,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 146.05 0)
+			(at 46.99 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9963,7 +10371,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 146.05 0)
+			(at 46.99 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9979,7 +10387,84 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR014")
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 203.2 129.54 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "94db7906-c212-4e18-b407-9f73a26af741")
+		(property "Reference" "#PWR036"
+			(at 207.01 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 198.374 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 203.2 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a35fb462-1caa-400f-afde-b5a8a30b449b")
+		)
+		(instances
+			(project "RM_Guided_Dart_Base_HW"
+				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -10166,7 +10651,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4566769-0b44-4d1d-a4bc-a107be8dd0ff")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 87.63 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10226,7 +10711,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -10244,7 +10729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af50b7e2-c162-4bde-a497-5bc66b77b762")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR034"
 			(at 185.42 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -10304,7 +10789,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR030")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -10323,7 +10808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b38f6e4d-9687-44c3-930d-999f9d9e5286")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR046"
 			(at 238.76 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -10384,7 +10869,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR036")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -10392,7 +10877,7 @@
 	)
 	(symbol
 		(lib_id "power:+8V")
-		(at 229.87 147.32 90)
+		(at 229.87 132.08 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10401,8 +10886,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4583a2e-3678-4a34-a5f9-4b8a8473b8d2")
-		(property "Reference" "#PWR039"
-			(at 233.68 147.32 0)
+		(property "Reference" "#PWR042"
+			(at 233.68 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10413,7 +10898,7 @@
 			)
 		)
 		(property "Value" "+7V2"
-			(at 224.282 147.32 90)
+			(at 224.282 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10423,7 +10908,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 147.32 0)
+			(at 229.87 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10434,7 +10919,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 147.32 0)
+			(at 229.87 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10445,7 +10930,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+8V\""
-			(at 229.87 147.32 0)
+			(at 229.87 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10461,7 +10946,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR039")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -10478,7 +10963,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6232637-3575-4851-8abe-cab124ad55b9")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR038"
 			(at 212.09 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -10539,7 +11024,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR031")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -10557,7 +11042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b82cfaec-ebed-4ede-a8c4-7f738c2e44cf")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR032"
 			(at 144.78 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -10617,7 +11102,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR0116")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -10625,8 +11110,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 46.99 171.45 270)
-		(mirror x)
+		(at 46.99 105.41 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10636,8 +11120,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be7b52d1-c680-4669-8c4d-6390a0bf3e9d")
-		(property "Reference" "#PWR019"
-			(at 43.18 171.45 0)
+		(property "Reference" "#PWR013"
+			(at 43.18 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10648,7 +11132,7 @@
 			)
 		)
 		(property "Value" "+1V8_SYS_2"
-			(at 50.8 171.4499 90)
+			(at 50.8 105.4101 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10659,7 +11143,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 171.45 0)
+			(at 46.99 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10670,7 +11154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 171.45 0)
+			(at 46.99 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10681,7 +11165,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 46.99 171.45 0)
+			(at 46.99 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10697,7 +11181,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR019")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10714,7 +11198,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf794f51-d3cf-4f6a-9f50-26608ffd3093")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR040"
 			(at 201.93 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10775,7 +11259,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR033")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -10792,7 +11276,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c03bf6b8-8707-4148-a213-94bc6d004c0a")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 87.63 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -10852,7 +11336,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -10869,7 +11353,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1a3ac21-085e-48ba-8393-abba0fc04f15")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR049"
 			(at 257.81 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -10929,7 +11413,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR043")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -11024,7 +11508,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd42ae21-bc34-449a-a94c-2e0e172ade34")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR048"
 			(at 247.65 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11084,7 +11568,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR042")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -11407,8 +11891,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 161.29 90)
-		(mirror x)
+		(at 46.99 115.57 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11419,7 +11902,7 @@
 		(fields_autoplaced yes)
 		(uuid "d37e04b4-5a73-404e-8c3c-58696b8fd68f")
 		(property "Reference" "#PWR016"
-			(at 53.34 161.29 0)
+			(at 53.34 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11430,7 +11913,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 161.2901 90)
+			(at 50.8 115.5699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11441,7 +11924,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 161.29 0)
+			(at 46.99 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11452,7 +11935,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 161.29 0)
+			(at 46.99 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11463,7 +11946,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 161.29 0)
+			(at 46.99 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11567,7 +12050,7 @@
 	)
 	(symbol
 		(lib_id "RM_Guided_Dart_Base_HW:Conn_01x03")
-		(at 234.95 147.32 0)
+		(at 234.95 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11578,7 +12061,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6b8d670-201b-4941-a459-6af30eafbe24")
 		(property "Reference" "J6"
-			(at 237.49 146.0499 0)
+			(at 237.49 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11588,8 +12071,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PWM2"
-			(at 237.49 148.5899 0)
+		(property "Value" "PWM1"
+			(at 237.49 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11600,7 +12083,7 @@
 			)
 		)
 		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:Connector_Servo_JR_3P_2.54mm_WirePad"
-			(at 234.95 147.32 0)
+			(at 234.95 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11611,7 +12094,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 147.32 0)
+			(at 234.95 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11622,7 +12105,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 234.95 147.32 0)
+			(at 234.95 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11652,7 +12135,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 207.01 134.62 0)
+		(at 203.2 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11661,8 +12144,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d756b2b3-a421-4e4b-ae74-5a6588a0fbb0")
-		(property "Reference" "#PWR034"
-			(at 207.01 138.43 0)
+		(property "Reference" "#PWR037"
+			(at 203.2 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11673,7 +12156,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 207.01 129.794 0)
+			(at 203.2 137.414 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11683,7 +12166,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 134.62 0)
+			(at 203.2 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11694,7 +12177,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 134.62 0)
+			(at 203.2 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11705,7 +12188,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 207.01 134.62 0)
+			(at 203.2 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11721,7 +12204,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR034")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -11739,7 +12222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9b6766b-7a33-43aa-aaa0-dead5b220a9f")
-		(property "Reference" "J8"
+		(property "Reference" "J9"
 			(at 261.62 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11806,7 +12289,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "J8")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -11814,7 +12297,7 @@
 	)
 	(symbol
 		(lib_id "power:+8V")
-		(at 229.87 132.08 90)
+		(at 229.87 147.32 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11823,8 +12306,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da54a4b3-dd6a-4740-bf56-fa50822395c9")
-		(property "Reference" "#PWR037"
-			(at 233.68 132.08 0)
+		(property "Reference" "#PWR044"
+			(at 233.68 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11835,7 +12318,7 @@
 			)
 		)
 		(property "Value" "+7V2"
-			(at 224.282 132.08 90)
+			(at 224.282 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11845,7 +12328,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 132.08 0)
+			(at 229.87 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11856,7 +12339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 132.08 0)
+			(at 229.87 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11867,7 +12350,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+8V\""
-			(at 229.87 132.08 0)
+			(at 229.87 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11883,7 +12366,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR037")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -11980,7 +12463,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e26831aa-7c7c-496e-8593-97d5e68c276c")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR029"
 			(at 133.35 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -12040,7 +12523,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR026")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -12057,7 +12540,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e320a5e7-56f1-42b4-b6a2-f948b0e06d00")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR050"
 			(at 247.65 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -12117,7 +12600,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR044")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -12125,8 +12608,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 123.19 90)
-		(mirror x)
+		(at 46.99 153.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12136,8 +12618,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e78f63fb-6a33-4a7a-b3de-a6f9d709754d")
-		(property "Reference" "#PWR012"
-			(at 53.34 123.19 0)
+		(property "Reference" "#PWR020"
+			(at 53.34 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12148,7 +12630,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 123.1901 90)
+			(at 50.8 153.6699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12159,7 +12641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 123.19 0)
+			(at 46.99 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12170,7 +12652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 123.19 0)
+			(at 46.99 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12181,7 +12663,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 123.19 0)
+			(at 46.99 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12197,7 +12679,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR012")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -12215,7 +12697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea32892d-8b62-45e4-a2e9-cbfb8680361b")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR023"
 			(at 74.93 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -12275,7 +12757,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "#PWR063")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -12283,7 +12765,7 @@
 	)
 	(symbol
 		(lib_id "RM_Guided_Dart_Base_HW:Conn_01x04_MountingPin")
-		(at 212.09 137.16 0)
+		(at 208.28 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12293,8 +12775,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa748d7a-ea22-4ae1-bb21-11c34cfa3b62")
-		(property "Reference" "J4"
-			(at 214.63 137.5155 0)
+		(property "Reference" "J5"
+			(at 210.82 145.1355 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12305,7 +12787,7 @@
 			)
 		)
 		(property "Value" "UART3"
-			(at 214.63 140.0555 0)
+			(at 210.82 147.6755 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12316,7 +12798,7 @@
 			)
 		)
 		(property "Footprint" "RM_Guided_Dart_Base_HW-Footprints:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal"
-			(at 212.09 137.16 0)
+			(at 208.28 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12327,7 +12809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 137.16 0)
+			(at 208.28 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12338,7 +12820,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 212.09 137.16 0)
+			(at 208.28 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12366,7 +12848,7 @@
 		(instances
 			(project "RM_Guided_Dart_Base_HW"
 				(path "/6ed09268-0e95-41b2-b676-0d7bbc40f5ee"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
